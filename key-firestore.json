@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "peak-catbird-444004-j0",
+  "private_key_id": "5399f779b61dbf826d6263b7115b672aeb9b8949",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAht/h8tsfG4nZ\nb2oKVfPqFs6oU70xZW8NNGRnuvA34UQi4P6uF6V+ScetADxIlsUl00ghCA60YhD0\n4TC98iWubiyA8dINo4yJz9fqEHlpmQlgohShK+U3bWAy7NVRnkGwGh1t53Jwh8ct\niiOB5X73PxCpNlWoMjpHPYdDVmW8zYl3DAfRzcXVStoXLJZ0y6gHCtMXK6m78QpX\nl2FWLj754IUonZcWwyvVJ/NKZ6AiFBqiZZJYwMIfAZt38OcPKryUoSoR52BeuIbX\nktUoegWm9VGpF+FYpu9qytdAqe0As6uGcdrM4eIHLCQvrQ5FZXew0xUi2sdHymD4\np538L2HdAgMBAAECggEARMwtlrVM3gneMafhkb3zQnRR9s6trcgcbfCJ7JNdoepK\nidgyyg1DIyTESKrr39iYrJKalMsnTgg5HPiXjVjJZFKUbqN7N0p5PwnZkxe9+yEn\nu7NPgeSIrUzVcn01IUxXFtHOMGbjexjZ8QkK9TEINNwBXSZAZ7FDKA/xlPt7sYJ1\ntXPlbVpfBVcGQ8vDNQqXnJA7MGCPY9lKlhc5GBrK3Dv4r3x5znmbY16MdwMOwFke\nO1NCvn18H/A5dObYAsWD9ZTgyvMMubYOvhgci6a63cuGIwtxIF93R3IQCPEfgPqD\nuxTOp5GDGZ0/bGNCVyecCnwaGIobG/zbmqCOFZ05lQKBgQD0ai9p5qkF5ABHxq6T\n7AUWItVfaRdvMfjIFDRY6PTEENEG+ilIXJo8ELgKBkvYipEGnvrkg8By5BsYxtqO\nsLq759DRoZ9CoVtsP6qijfAmSJ/qcijOoZHeOBL/PObk8PYEqNbNRl5vhLYjSzIb\nXanBFtbfgW07gIx16AT+fiu8DwKBgQDJpxAdkkvTN7MDccF/6xrX0TZAqDCWRRhb\n+vrjcUgCGPEBot7waZpI4SeD2az7jgZsGpMijyMFQ6nb/8GsHiUSUS23bCmOSnpn\n3XQZrtL0GXOFB2jCJ06zZcvdXCwkVvJ0AbpMH/cVCOPlN+wc0nu9v+HnBw3QRdOd\np7nSh1MHUwKBgGJ7ksVCKuLzvuUs+lUiKd6EhKNgLhAg+5RrB7i3jUCfYgpErHO6\n1G7VccKgTNlg5BTd5ExFhjsFDKIMJi6OqX9jZfHCBPENIVBZywCa3qQeaUlHXIf9\n9E+tGoJ74LFpIkg4W+z0qMKYn+dSukrqj6b88/G1LfVm07ICnliJMEgjAoGAFd4j\nFkHeLSqWJCJ67GdPguXyLzLOCg22JYtjF7UaLPgNcrL54DJjg9G+2kKJysHNGn4L\nRK0nDBQZYH0swICIXqMlBQYav45+FbNjOsHFqKj16RAzoRJoK3Y3lGrBcrNnGYNy\nc3zn64UKSbo1xa5hsuMTGV2fdt2LpEYjFZyNOXcCgYBmGdDKSXk8zfDyiE7DZHE8\nPGY0fTJLVbsm4gnLdS854MVrcyWhO8k94BYgvbbuK8XtEpaEd+YetgRUa3UKtP+b\n6T9FIgyhEhmBGmgwvu4PPjDVV1xc7fPGHc1HNYnM43qoDFIKMbpnBEaZXQvevbxL\nKsxTuYaOnAJ7xyyT8r1anQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "key-firestore-asclepius@peak-catbird-444004-j0.iam.gserviceaccount.com",
+  "client_id": "104261996329092486582",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/key-firestore-asclepius%40peak-catbird-444004-j0.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
