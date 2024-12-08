@@ -2,7 +2,7 @@ const express = require('express');
 const multer = require('multer');
 const tf = require('@tensorflow/tfjs-node'); // TensorFlow.js
 const uuidv4 = require('uuid').v4;
-const { storeData } = require('./storeData'); // Pastikan fungsi storeData benar
+const { storeData, getData } = require('./storeData'); // Mengimpor fungsi storeData dan getData
 const app = express();
 const port = 3000;
 
@@ -110,6 +110,37 @@ app.post('/predict', (req, res) => {
 // Endpoint GET untuk pengecekan server
 app.get('/', (req, res) => {
   res.send('Server berjalan dengan baik!');
+});
+
+// Endpoint GET untuk riwayat prediksi
+app.get('/predict/histories', async (req, res) => {
+  try {
+    // Ambil semua data riwayat prediksi dari Firestore
+    const histories = await getData();
+
+    // Format data sesuai dengan struktur yang diinginkan
+    const formattedHistories = histories.map(history => ({
+      id: history.id,
+      history: {
+        result: history.result,
+        createdAt: history.createdAt,
+        suggestion: history.suggestion,
+        id: history.id
+      }
+    }));
+
+    // Kirimkan response dengan data riwayat prediksi
+    return res.status(200).json({
+      status: 'success',
+      data: formattedHistories
+    });
+  } catch (error) {
+    console.error('Error fetching prediction histories:', error);
+    return res.status(400).json({
+      status: 'fail',
+      message: 'Terjadi kesalahan dalam mengambil riwayat prediksi'
+    });
+  }
 });
 
 // Jalankan server
