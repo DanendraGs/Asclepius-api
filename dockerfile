@@ -1,18 +1,13 @@
-# Gunakan image resmi Node.js
-FROM node:18
+FROM node:18-slim
 
-# Set direktori kerja di dalam container
-WORKDIR /usr/src/app
+WORKDIR /app
 
-# Salin package.json dan install dependencies
+ENV PORT 3000
+
 COPY package*.json ./
 RUN npm install
 
-# Salin sisa aplikasi ke dalam container
 COPY . .
 
-# Expose port 3000 (sesuaikan dengan port aplikasi Anda)
 EXPOSE 3000
-
-# Jalankan aplikasi
-CMD ["node", "app.js"]
+CMD [ "npm", "run", "start"]
